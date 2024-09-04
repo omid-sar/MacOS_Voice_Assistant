@@ -77,7 +77,7 @@ To automate the process, set up a Quick Action in Automator:
 
    Replace `/path/to/your/python` with the path to your Python executable and `/path/to/your/voice_to_text.py` with the actual path where you have placed your Python script from the repository.
 
-![Alt Text](image/Quick_Action.png)
+![Automator-Quick Action](image/Quick_Action.png)
 ### 6. Permissions Configuration
 
 To ensure the application runs smoothly, grant the following permissions:
