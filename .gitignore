@@ -1,0 +1,17 @@
+credentials/
+data/
+artifacts/
+macos_automator/
+
+*.code-workspace
+*.log
+*.json
+*.yml
+*.ini
+*.env
+*.mp3
+
+*.egg-info/
+*.egg
+.mypy_cache/
+__pycache__/
