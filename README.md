@@ -28,8 +28,18 @@ This tool allows users to transcribe voice input into text using OpenAI's Whispe
 - **Python 3.7+**: Ensure Python is installed.
 - **OpenAI API Key**: Sign up at [OpenAI](https://beta.openai.com/signup/) and generate an API key.
 
-### 2. Install Required Python Libraries
+### 2. Setup and Installation Required 
 
+## Important Information
+When you clone this repository, make sure you are on the `main` branch to access the stable version of the code.
+
+### To Clone and Use the Main Branch:
+
+```bash
+git clone https://github.com/omid-sar/MacOS_Voice_Assistant.git
+cd repository
+git checkout main  # Ensures you are on the main branch
+   ```
 Install the necessary libraries using the following command:
 
 ```bash
