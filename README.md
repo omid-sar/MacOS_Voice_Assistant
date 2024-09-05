@@ -60,7 +60,7 @@ Replace `"your-username"` with your macOS username and `"your-actual-api-key"` w
 
 Ensure your Python script (`voice_to_text.py`) is configured correctly to:
 
-- Start recording when `F14` is pressed.
+- Start recording when `F15` is pressed.
 - Stop recording when `F13` is pressed.
 - Transcribe the recorded audio using OpenAI's Whisper API.
 - Copy the transcribed text to the clipboard.
@@ -88,6 +88,20 @@ To automate the process, set up a Quick Action in Automator:
    Replace `/path/to/your/python` with the path to your Python executable and `/path/to/your/voice_to_text.py` with the actual path where you have placed your Python script from the repository.
 
 ![Automator-Quick Action](image/Quick_Action.png)
+
+### 6. Assigning a Keyboard Shortcut to the Quick Action
+
+To automate the process of running the Quick Action (`voice_to_text`) with a keyboard shortcut:
+
+1. Open **System Preferences** on your Mac.
+2. Navigate to **Keyboard** > **Shortcuts**.
+3. In the left sidebar, select **Services**.
+4. Scroll down to find the section where your Quick Action (`voice_to_text`) is listed under **General** or **Services**.
+5. Click on the empty space next to the Quick Action name to set a keyboard shortcut.
+6. Press `F15` to assign it as the shortcut key for this Quick Action.
+
+Now, pressing `F15` will automatically run the shell script defined in your Quick Action, starting the voice-to-text transcription.
+
 ### 6. Permissions Configuration
 
 To ensure the application runs smoothly, grant the following permissions:
@@ -97,7 +111,7 @@ To ensure the application runs smoothly, grant the following permissions:
 
 ### 7. Running the Application
 
-1. Press `F14` (or your configured shortcut) to start recording.
+1. Press `F15` (or your configured shortcut) to start recording.
 2. Speak clearly into your microphone.
 3. Press `F13` (or your configured shortcut) to stop recording.
 4. The transcribed text will be copied to your clipboard, and a notification will appear.
